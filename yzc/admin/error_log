@@ -1,0 +1,1 @@
+[06-Aug-2021 16:17:12 Europe/Istanbul] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mahiyecom/yusufzcenik.com/admin/includes/LoginController.php on line 32

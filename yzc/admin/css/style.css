@@ -1,0 +1,39 @@
+.sil{
+    height: 25px;
+    width: 25px;
+    background-color: #ae6363;
+    color:#535a5f;
+    padding-left: 5px;
+    padding-top: 2px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10%;
+    font-size: 15px;
+}
+.sil:hover{
+    color:white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+@media (max-width: 766px) {
+    .kapak_photo{
+        display: none;
+    }
+}
+
+.tablesira tr td:first-child{
+    position: relative;
+    padding-left: 20px;
+
+}
+.tablesira tr td:first-child:before{
+   content: '';
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #999;
+    cursor: move;
+}
